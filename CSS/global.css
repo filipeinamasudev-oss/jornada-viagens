@@ -21,11 +21,11 @@ cores de textos */
     --secondary-color: #B81515;
    
     --text-primary-color: #222222;
-    --text-secondary-color: #FFFFFF:  
-
+    --text-secondary-color: #FFFFFF;
+    
     --title-weight: 700;
     --text-weight: 400;
-    --menu-weight: 500;
+    --menu-text-weight: 500;
     }
 
     h1 {
@@ -49,3 +49,8 @@ body,img, h1, p, fieldset, input, button, textarea, select {
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
+}
+
+body{
+    font-family:"Montserrat";
+}
