@@ -12,13 +12,18 @@ header {
    width: 68px;
    height: 64px;
 }
+.navigation-menu { 
+    margin-top: 24px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    display: block;
+}
+nav{
+    display: none;
+}
 
 header img {
     width: 40px;      
     height: 40px;
 }
-.navigation-menu { 
-    margin-top: 24px;
-}
-nav{
-    display: none;
