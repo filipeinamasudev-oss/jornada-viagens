@@ -34,6 +34,12 @@ cores de textos */
     color: var(--primary-color);
     }
 
+    button{
+    font-family: "Montserrat";
+    font-weight: var(--menu-weight);
+    color: var(--text-secondary-color);
+    }
+
 /* CSS RESET */
 body,img, h1, p, fieldset, input, button, textarea, select {
     margin: 0;
